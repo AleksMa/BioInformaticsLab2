@@ -22,7 +22,6 @@ type Cell struct {
 	Dir      Direction
 }
 
-type Matrix []Line
 type Line []*Cell
 
 type ScoringFunc map[uint8]map[uint8]int
